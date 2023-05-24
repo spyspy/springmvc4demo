@@ -11,7 +11,7 @@ public class HelloController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public ModelAndView helloWorld() {
         ModelAndView modelAndView = new ModelAndView("hello");
-        modelAndView.addObject("message", "Hello, World!");
+        modelAndView.addObject("message", "Hello, World! A");
         return modelAndView;
     }
 }
