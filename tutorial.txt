@@ -1,0 +1,26 @@
+
+============================================================
+
+# Run on Server in Eclipse
+
+Mouse select project folder.
+Mouse Right Click, choose "Run As" -> "Run on Server"
+
+"Run on Server" Window:
+Mouse select Tomcat Server. Click "Next" button.
+See your project is on the right box of the window.(Configured)
+
+============================================================
+
+# Add Existing Folder to my github empty repo.
+Finish a web project.
+in the fold: 
+git init
+git add .
+git commit -m "Add existing project files to Github"
+git remote add origin https://github.com/XXXXXXX.git
+git remote add origin https://github.com/spyspy/springmvc4demo.git
+git remote add origin git@github.com:spyspy/springmvc4demo.git
+git push --set-upstream origin main  (Upload local branch to remote Github server)
+
+============================================================
